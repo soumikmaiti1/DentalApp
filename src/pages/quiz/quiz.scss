@@ -1,0 +1,24 @@
+page-quiz {
+    .submit-btn
+    {
+        display: block;
+        float: right;
+        font: normal 16px/45px Arial,Helvetica,sans-serif;
+        margin-left: 1%;
+        text-align: center;
+        border-radius: 7px;
+        text-transform: none;
+        width: 100%;
+        padding: 22px;
+        margin: -4px -5px 0 0;
+    }
+    .mcms
+    {
+        padding: 80px;
+        margin: 1px 6px 7px 0px;
+        border-radius: 50%;
+        background-color: green;
+        border: 1px solid #ccc;
+    }
+    
+}

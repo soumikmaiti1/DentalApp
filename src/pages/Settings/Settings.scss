@@ -1,0 +1,48 @@
+page-contact {
+    #circle {
+        width: 130px;
+        max-width: 130px;
+        
+        border: 2px solid #000;
+        height: 130px;
+        max-height: 130px;
+        border-radius: 100%;
+        overflow: hidden;
+        float: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    #circle img {
+        width: 100%;
+        height: auto;
+    }
+    .listMenu
+    { 
+       width:100%;
+       position: absolute;
+       margin-top: 48%;
+       padding:10%;
+    }
+    .editIcon{
+       width:8%;
+       height:auto;
+       position: absolute;
+       margin: 34% 0 0 54%;
+       z-index: 1;
+    }
+    .name{
+        float: none;
+        left: 0;
+        right: 0;
+       position: absolute;
+       margin-top: 43%;
+       margin-right: auto;
+       margin-bottom: auto;
+       margin-left: auto;
+    }
+}

@@ -1,0 +1,78 @@
+{
+  "status": 1,
+  "msg":"success",
+  "StartTimeStamp":"",
+  "EndTimeStamp":"",
+  "playPauseConstant":false,
+  "questions": [
+    {
+      "qid": "a78507b0-f46f-11e7-b96c-dfbd97a93a88",
+      "qtype": "MCSS",
+      "question": "<p>This is test question 1</p>",
+      "options": [
+        "option1",
+        "option2",
+        "option3"
+      ],
+      "category":"BasicScience",
+      "subCategory": "Orthodontics",
+      "correct": ["option3"]
+    },
+    {
+      "qid": "a78507b0-f46f-11e7-b96c-dfbd97a93a89",
+      "qtype": "MCMS",
+      "question": "<p>This is test question 2</p>",
+      "options": [
+        "option1",
+        "option2",
+        "option3"
+      ],
+      "category":"BasicScience",
+      "subCategory": "Anatomy",
+      "correct": ["option3","option2"]
+    },
+     {
+      "qid": "a78507b0-f46f-11e7-b96c-dfbd97a93a90",
+      "qtype": "MCSS",
+      "question": "<p>This is test question 3</p>",
+      "options": [
+        "option1",
+        "option2",
+        "option3"
+      ],
+      "category":"BasicScience",
+      "subCategory": "Orthodontics",
+      "correct": ["option3"]
+    },
+    {
+      "qid": "a78507b0-f46f-11e7-b96c-dfbd97a93a91",
+      "qtype": "MCMS",
+      "question": "<p>This is test question 4</p>",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4"
+      ],
+      "category":"BasicScience",
+      "subCategory": "Anatomy",
+      "correct": ["option3","option2"]
+    },
+     {
+      "qid": "a78507b0-f46f-11e7-b96c-dfbd97a93a92",
+      "qtype": "MCSS",
+      "question": "<p>This is test question 5</p>",
+      "options": [
+        "option1",
+        "option2",
+        "option3",
+        "option4",
+        "option5"
+      ],
+      "category":"BasicScience",
+      "subCategory": "Orthodontics",
+      "correct": ["option3"]
+    }
+   
+  ]
+}

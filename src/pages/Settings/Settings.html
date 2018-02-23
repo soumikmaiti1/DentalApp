@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     Settings
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <img src="assets/imgs/pencil.png" alt="" class="editIcon" (click)="takePicture()">
+       
+   
+    <div id="circle">
+      <img [src]="imageURL" *ngIf="imageURL" id="profilepic"/>
+    </div>
+    <h1 align="center" class="name">Name</h1>
+  <ion-list class="listMenu">
+    
+    <ion-list-header style="font-weight: bold;font-size:20px;border-top: 0px;">More</ion-list-header>
+    <ion-list-header (click)="socialShare()">Share this app</ion-list-header>
+    <ion-list-header>About</ion-list-header>
+    <ion-list-header>Terms & conditions</ion-list-header>
+    <ion-list-header>Privacy & policies</ion-list-header>
+    <ion-list-header (click)="Logout()" style="border-bottom: 0px;">Logout</ion-list-header>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,60 @@
+<ion-header>
+
+  <ion-navbar style="display:none;">
+    <ion-title>index</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<!-- <ion-content padding>
+ <button ion-button class="signbtn" (click)="signin()">Sign in</button> 
+  <button ion-button color="primary" (click)="FBlogin()" class="loginBtn loginBtn--facebook">
+    Connect with Facebook
+  </button>
+
+  <button class="loginBtn loginBtn--google" (click)="GPlogin()">
+    Login with Google
+  </button>
+
+  <button class="Create-btn" (click)="signup()">Create Account</button>
+  <h1 class="h1">By Joining you agree to</h1>
+  <h1 class="h1-a">Terms of Use and Privacy Policy</h1>
+</ion-content> -->
+<ion-content class="login-content" padding="0px">
+  <ion-row class="logo-row">
+    <img src="assets/imgs/logo.png" />
+  </ion-row>
+  <ion-row class="text-1">
+    <p>JOIN WITH US</p>
+  </ion-row>
+  <div class="facebook-column">
+    <a href="#" (click)="FBlogin()">
+      <img src="assets/imgs/facebook.png" />
+    </a>
+  </div>
+  <div class="google-column">
+    <a href="#" (click)="GPlogin()">
+      <img src="assets/imgs/google.png" />
+    </a>
+  </div>
+  <div class="text-2">
+    <h2>
+      <span>OR</span>
+    </h2>
+  </div>
+  <div class="row">
+    <div class="button">
+      <a href="#" (click)="signin()">Login</a>
+    </div>
+    <div class="button">
+      <a href="#" (click)="signup()">Sign Up</a>
+    </div>
+  </div>
+  <div class="text-3">
+    <p>By joining you agree to Dental
+      <br>
+      <a href="">Terms of Uses</a> and
+      <a href=""> Privacy Policy</a>
+    </p>
+  </div>
+</ion-content>

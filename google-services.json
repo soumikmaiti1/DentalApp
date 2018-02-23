@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "199027521601",
+    "project_id": "dentalapp-6b968"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199027521601:android:dff13e7b71c4f597",
+        "android_client_info": {
+          "package_name": "com.androidapp.DentalApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199027521601-401hj9eg3kg563ktuvh559hsculf0bht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidapp.DentalApp",
+            "certificate_hash": "f3c501d110b46845cc28675ee45313eea705183c"
+          }
+        },
+        {
+          "client_id": "199027521601-nvlkruk15vth37irvvci8sc9njr041rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEpTtzMNiX68rpbkkROMxkRdkn0-5kEIc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
